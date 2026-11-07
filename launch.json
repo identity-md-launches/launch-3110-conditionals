@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "ConditionalsToken",
+    "name": "CONDITIONALS",
+    "symbol": "COND",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 7000,
+    "initialMarketCapWei": "2500000000000000000000",
+    "remainderTo": "0xee2aaa315cf7ed169f93148d30d24af9318dbb66"
+  },
+  "notes": "ConditionalsToken (CONDITIONALS, COND) is the token for conditionals.xyz: a plain fixed-supply OpenZeppelin ERC-20 with 18 decimals. Its constructor takes no arguments and mints INITIAL_SUPPLY, 1,000,000,000 * 10^18 base units, once to msg.sender (the factory). It has no owner, no admin roles, no mint, burn, pause, blacklist or transfer fees, so every launch flow (distributor, pool seed, swaps) moves exactly what it says. The launch deploys no application contracts."
+}
